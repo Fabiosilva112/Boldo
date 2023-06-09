@@ -122,3 +122,68 @@ font-size: 20px;
 color: #FFFFFF;
 }
 
+.main-sectionOneTwo-divOne {
+    text-align: center;
+    margin-top: 82px;
+}
+
+.main-sectionOneTwo-divOne-title {
+    font-weight: 400;
+    font-size: 20px;
+    color: #777777;
+    margin-bottom: 12px;
+}
+
+.main-sectionOneTwo-divOne-title2 {
+    width: 60%;
+    margin: auto;
+    font-weight:400;
+    font-size: 48px;
+    color: #000000;
+}
+
+.main-sectionOneTwo-divTwomain-sectionOneTwo-divTwo {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 78px;
+    margin-bottom: 197px;
+    gap: 50px;
+}
+
+.main-sectionOneTwo-divTwo-card-img {
+    margin-bottom: 24px;
+  
+}
+
+
+.main-sectionOne1 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.main-sectionOneTwo-divTwo-card-paragraph2 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #777777;
+    margin-bottom: 28px;
+    
+}
+.main-sectionOneTwo-divTwo-card-link {
+    font-weight: 700;
+    font-size: 20px;
+    color: #0A2640;
+    text-decoration: none;
+    display: flex;
+    border-bottom: 1px solid #0A2640;
+    width: 180px;
+    padding-bottom: 8px;
+    justify-content: space-between;
+}
+
+.main-sectionOneTwo-divTwo-card-link img {
+    margin-left: 10px;
+}
+

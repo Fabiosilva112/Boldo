@@ -1,0 +1,127 @@
+<<<<<<< HEAD
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+.header {
+    padding: 56px 0;
+    background-color: #0A2640;
+}
+
+.header-center {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-center-nav {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.header-center-nav-ul {
+    display: flex;
+    width: 72%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-ul-li {
+    list-style: none;
+    font-size: 16px;
+}
+
+.lilog {
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    width: 128px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.nav-ul-li-link {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.logai {
+    color: #0A2640;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* end header */
+
+.main-sectionOne{
+    background-color: #0A2640 ;
+}
+
+.main-sectionOne-saveTime{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.main-sectionOne-saveTime-divOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-sectionOne-saveTime-divOne-title{
+    font-family: 'Manrope';
+    font-weight: 400;
+    width: 82%;
+    
+font-size: 48px;
+color: #FFFFFF;
+margin-bottom: 16px;
+}
+
+.main-sectionOne-saveTime-divOne-paragraph{
+    font-weight: 400;
+    width: 85%;
+    line-height: 30px;
+font-size: 16px;
+color: #F1F1F1;
+margin-bottom: 40px;
+}
+
+.main-sectionOne-saveTime-divOne-buttons-bt1{
+    background: #65E4A3;
+border: 2px solid #69E6A6;
+border-radius: 56px;
+width: 247px;
+height: 60px;
+font-weight: 700;
+font-size: 20px;
+color: #0A2640;
+margin-right: 24px;
+}
+
+.main-sectionOne-saveTime-divOne-buttons-bt2{
+    width: 187px;
+height: 60px;
+background-color: transparent;
+border: 2px solid #FFFFFF;
+border-radius: 56px;
+padding: 16px 56px;
+font-weight: 700;
+font-size: 20px;
+color: #FFFFFF;
+}
+
+>>>>>>> master

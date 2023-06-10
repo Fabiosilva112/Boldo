@@ -61,7 +61,7 @@
     font-weight: 700;
 }
 
-/* end header */
+/* End header */
 
 .main-sectionOne{
     background-color: #0A2640 ;
@@ -122,6 +122,8 @@ font-size: 20px;
 color: #FFFFFF;
 }
 
+/*End sectionOne*/
+
 .main-sectionOneTwo-divOne {
     text-align: center;
     margin-top: 82px;
@@ -144,16 +146,21 @@ color: #FFFFFF;
 
 .main-sectionOneTwo-divTwomain-sectionOneTwo-divTwo {
     display: flex;
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 78px;
     margin-bottom: 197px;
     gap: 50px;
+   justify-content: space-between;
+}
+
+.main-sectionOneTwo-divTwo-card{
+    width: 29%;
 }
 
 .main-sectionOneTwo-divTwo-card-img {
     margin-bottom: 24px;
-  
+    width: 100%;
 }
 
 
@@ -166,10 +173,10 @@ color: #FFFFFF;
 
 .main-sectionOneTwo-divTwo-card-paragraph2 {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     color: #777777;
-    margin-bottom: 28px;
-    
+    width: 100%;
+    padding-bottom: 20px;
 }
 .main-sectionOneTwo-divTwo-card-link {
     font-weight: 700;
@@ -187,11 +194,15 @@ color: #FFFFFF;
     margin-left: 10px;
 }
 
+
+/*Ende sectionTwo*/
+
+
 .main-sectionThree-customers{
     display: flex;
-    width: 80%;
+    width: 90%;
     margin: auto;
-    gap: 157px;
+    gap: 120px;
 }
 
 .main-sectionThree-customers-divTwo{  
@@ -205,8 +216,7 @@ color: #FFFFFF;
     color: #000000;
     margin-top: 65px;
     margin-bottom: 40px;
-    width: 493px;
-    height: 164px;
+   
 }
 
 .main-sectionThree-customers-divTwo-check{
@@ -219,6 +229,7 @@ color: #FFFFFF;
 .main-sectionThree-customers-divTwo-paragraph {
     display: flex;
     margin-bottom: 24px;
+    
 }
 
 .main-sectionThree-customers-divTwo-paragraph img{
@@ -241,8 +252,15 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 
+
 .main-sectionThree-customers-divOne-box1 {
     position: relative;
+
+}
+
+.main-sectionThree-customers-divOne-box1-img {
+    width: 100%;
+    height: 80%;
 }
 
 .main-sectionThree-customers-divOne-box2 {
@@ -253,18 +271,15 @@ color: #FFFFFF;
     border-radius: 12px;
     position: absolute;
     right: 50px;
-    top: 220px;
+    top: 230px;
 }
 
-.main-sectionThree-customers-divOne-box1-img2 {
-    width: 100%;
-}
 
-/* Fim sectionThree*/
+/* End sectionThree*/
 
 
 .main-sectionFour-connect {
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: flex;
     margin-top: 120px;
@@ -330,6 +345,8 @@ color: #FFFFFF;
 }
 
 .main-sectionFour-connect-divTwo-person-img {
-    width: 100%;
+    width: 90%;
     height: 80%;
 }
+
+/*End sectionFour*/

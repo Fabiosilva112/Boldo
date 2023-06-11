@@ -112,14 +112,14 @@ margin-right: 24px;
 
 .main-sectionOne-saveTime-divOne-buttons-bt2{
     width: 187px;
-height: 60px;
-background-color: transparent;
-border: 2px solid #FFFFFF;
-border-radius: 56px;
-padding: 16px 56px;
-font-weight: 700;
-font-size: 20px;
-color: #FFFFFF;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 56px;
+    padding: 16px 56px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
 }
 
 /*End sectionOne*/
@@ -137,7 +137,7 @@ color: #FFFFFF;
 }
 
 .main-sectionOneTwo-divOne-title2 {
-    width: 60%;
+    width: 70%;
     margin: auto;
     font-weight:400;
     font-size: 48px;
@@ -173,7 +173,7 @@ color: #FFFFFF;
 
 .main-sectionOneTwo-divTwo-card-paragraph2 {
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     color: #777777;
     width: 100%;
     padding-bottom: 20px;
@@ -246,7 +246,7 @@ color: #FFFFFF;
     border: 2px solid #0A2640;
     border-radius: 56px;
     margin-top: 56px;
-
+    cursor: pointer;
     font-weight: 700;
     font-size: 20px;
     color: #FFFFFF;
@@ -283,6 +283,7 @@ color: #FFFFFF;
     margin: auto;
     display: flex;
     margin-top: 120px;
+    cursor: pointer;
 }
 
 .main-sectionFour-connect-divOne {
@@ -350,3 +351,101 @@ color: #FFFFFF;
 }
 
 /*End sectionFour*/
+
+.main-sectionFive {
+    background-color: #0A2640;
+    padding: 96px 0px;
+    margin-top: 150px;
+}
+
+.main-sectionFive-tamplate {
+    width: 90%;
+    margin: auto;
+}
+
+.main-sectionFive-tamplate-div {
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.main-sectionFive-tamplate-div-title{
+    width: 65%;
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFFFFF;
+  
+}
+
+.main-sectionFive-tamplate-div-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border: 3px solid #0A2640;
+    width: 15%;
+    margin-top: 70px;
+}
+
+.main-sectionFive-tamplate-div{
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.main-sectionFive-tamplate-container {
+    display: flex;
+    gap: 22px;
+    margin-top: 72px;
+}
+
+
+.main-sectionFive-tamplate-container-card {
+    background: #FFFFFF;
+    box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    width: 350px;
+    height: 100%;
+    
+}
+
+.main-sectionFive-tamplate-container-card-title {
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    margin: 40px;
+}
+
+.main-sectionFive-tamplate-container-card-network{
+    display: flex;
+    margin: 40px;
+}
+
+.main-sectionFive-tamplate-container-card-network-img{
+    width: 58px;
+    height: 58px;
+}
+
+.main-sectionFive-tamplate-div-buttons-bt {
+    background-color: #FFFFFF;
+    color: #0A2640;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.main-sectionFive-tamplate-container-card-network-div{
+    margin-left: 20px;
+}
+
+.main-sectionFive-tamplate-container-card-network-div-paragraph{
+    font-weight: 700;
+    font-size: 16px;
+    color: #0A2640;
+    padding-bottom: 6px;
+}
+
+.main-sectionFive-tamplate-container-card-network-div-paragraph2{
+    font-weight: 400;
+    font-size: 14px;
+    color: #0A2640;
+}

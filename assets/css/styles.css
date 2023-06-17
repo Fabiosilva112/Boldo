@@ -45,6 +45,7 @@
     padding: 10px;
     font-weight: 700;
     font-size: 16px;
+    cursor: pointer;
 }
 
 
@@ -127,6 +128,7 @@
     font-size: 20px;
     color: #0A2640;
     margin-right: 24px;
+    cursor: pointer;
 }
 
 .main-sectionOne-saveTime-divOne-buttons-bt1:hover {
@@ -138,6 +140,7 @@
 .main-sectionOne-saveTime-divOne-buttons-bt2 {
     width: 187px;
     height: 60px;
+    cursor: pointer;
     background-color: transparent;
     border: 2px solid #FFFFFF;
     border-radius: 56px;

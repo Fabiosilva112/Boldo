@@ -162,13 +162,12 @@
     color: #FFFFFF;
 }
 
-.main-sectionOne-saveTime-divOne-buttons-bt2:hover {
+.main-sectionOne-saveTime-divOne-buttons-bt2:hover{
     background-color: white;
     color: #0A2640;
     transition: 0.5s;
     border: 2px solid white;
 }
-
 
 
 @-webkit-keyframes scroll {
@@ -894,4 +893,302 @@
     line-height: 28px;
     color: #0A2640;
     cursor: pointer;
+}
+
+
+/* Resposividade */
+
+
+@media (max-width: 600px) {
+
+    .header-center-nav {
+        width: 50%;
+    }
+
+ 
+    .header-center-img {
+        width: 50%;
+    }
+
+    .main-sectionOne-saveTime-divOne-title {
+        font-size: 30px;
+        margin: 30px  auto;
+        
+    }
+
+    .main-sectionOne-saveTime-divOne-paragraph {
+        margin: auto;
+    }
+
+
+    .main-sectionOne-saveTime-divOne-buttons {
+        display: flex;
+        align-items: center;
+        margin: 35px 20px;
+    }
+
+    .main-sectionOne-saveTime-divOne-buttons-bt1 {
+        width: 50%;
+        font-size: 15px;
+    
+    }
+
+    .main-sectionOne-saveTime-divOne-buttons-bt2 {
+        width: 50%;
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .main-sectionOne-saveTime {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .main-sectionOne-saveTime-divTwo-img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .main-sectionOneTwo-divOne-title2 {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .main-sectionOneTwo-divTwomain-sectionOneTwo-divTwo {
+        width: 50%;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-sectionOneTwo-divTwo-card {
+        width: 50%;
+        margin: auto;
+    }
+
+
+    .main-sectionOneTwo-divTwo-card-paragraph2 {
+        font-size: 12px;
+    }
+
+    .main-sectionOneTwo-divTwo-card-link {
+        font-size: 12px;
+        border-bottom: none;
+    }
+
+
+    .main-sectionThree-customers {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .main-sectionThree-customers-divOne-box1-img2 {
+        width: 30px;
+      
+    }
+
+    .main-sectionOneTwo-divTwo-card-link img {
+      width: 0;
+      
+    }
+
+    .main-sectionThree-customers-divOne-box2 {
+        width: 0;
+    }
+
+    .main-sectionThree-customers-divTwo {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+    
+    }
+    
+    .main-sectionThree-customers-divTwo-title {
+        width: 50%;
+        font-size: 10px;
+        margin-top: 0;
+    }
+
+    .main-sectionThree-customers-divTwo-check{
+        width: 50%;
+        font-size: 10px;
+
+    }
+
+    .main-sectionThree-customers-divTwo-paragraph img{
+        width: 25px;
+    }
+    
+    .main-sectionThree-customers-divTwo-button {
+        width: 30%;
+        font-size: 10px;
+    }
+        
+
+    .main-sectionFour-connect {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .main-sectionFour-connect-divOne-icons-paragraph {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .main-sectionFour-connect-divOne {
+        width: 100%;
+        
+    }
+
+    .main-sectionFour-connect-divOne-title {
+        width: 80%;
+        font-size: 20px;
+       
+    }
+
+    .main-sectionFour-connect-divTwo-person {
+        width: 0;
+    }
+
+    .main-sectionFour-connect-divTwo-person2 {
+        width: 0;
+    }
+    
+    .main-sectionFive-tamplate-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-sectionFive-tamplate-div-title {
+        width: 95%;
+        font-size: 25px;
+    }
+
+    .main-sectionFive-tamplate-div-buttons-bt {
+        width: 100%;
+    }
+
+    .main-sectionFive-tamplate-div-buttons-bt img {
+        width: 80%;
+        
+    }
+
+    .main-sectionFive-tamplate-container-card {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .main-sectionFive-tamplate-container-card-title {
+        width: 75%;
+        font-size: 15px;
+    }
+
+    .main-sectionFive-tamplate-container-card-network-div-paragraph {
+        font-size: 10px;
+        
+    }
+
+    .main-sectionFive-tamplate-container-card-network-div-paragraph2 {
+        font-size: 10px;
+    }
+
+    .main-sectionFive-tamplate-container-card-network-img {
+        width: 38px;
+        height: 38px;
+    }
+
+    .main-sectionSix-table-divtwo {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+    }
+   
+    
+    .main-sectionSix-table-divtwo-title {
+       font-size: 15px;
+       width: 80%;
+       margin: auto;
+    }
+
+    .main-sectionSix-table-divtwo-details img {
+        width: 10%;
+    }
+
+    .main-sectionSix-table-divtwo-details{
+        width: 80%;
+        margin-top: 50px;
+    }
+    
+    .main-sectionSix-table-divtwo-details-dt {
+        font-size: 10px;
+    }
+
+
+   
+    .main-sectionSeven-proposition-category-card {
+        width: 100%;
+        
+    }
+    .main-sectionSeven-proposition-title2 {
+        font-size: 20px;
+    }
+   
+    .main-sectionSeven-proposition-category {
+        display: flex;
+        flex-direction: column;
+    }
+   
+
+    .main-sectionSeven-proposition-category-card-img {
+        width: 80%;
+
+    }
+
+    .main-sectionSeven-proposition-category-card-text {
+        align-items: center;
+    }
+
+    .main-sectionSeven-proposition-category-card-text-p1 {
+        font-size: 10px;
+    }
+
+    .main-sectionSeven-proposition-category-card-text-p2 {
+        font-size: 10px;
+         width: 80%;
+        
+    }
+
+    .main-sectionSeven-proposition-category-card-network {
+        margin-left: 20px;
+    }
+    .main-sectionSeven-proposition-button {
+        margin: 0;
+        padding: 10px;
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .main-sectionEight-company-title {
+      font-size: 25px;
+    }
+
+    .main-sectionEight-company-form-input {
+        margin: 0 auto;
+        width: 150px;
+        font-size: 10px;
+    }
+
+    .main-sectionEight-company-form-button {
+        width: 120px;
+        font-size: 10px;
+        padding: 10px;
+        margin-top: 20px;
+    }
 }

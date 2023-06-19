@@ -36,6 +36,14 @@
     font-size: 16px;
 }
 
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
 .header-center-nav-ul button {
     background-color: #FFFFFF;
     border: 2px solid #FFFFFF;
@@ -91,6 +99,10 @@
     width: 90%;
     margin: auto;
     display: flex;
+}
+
+.main-sectionOne-saveTime-divTwo-img{
+    width: 100%;
 }
 
 .main-sectionOne-saveTime-divOne {

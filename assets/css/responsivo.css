@@ -53,21 +53,11 @@
         width: 50%;
     }
 
-<<<<<<< HEAD
-    .main-sectionOneTwo{
-    
-    }
-
-
-=======
->>>>>>> 4f9821ea520c85bd6faee7c0e8dda3d1a7a44038
     .main-sectionOne-saveTime{
         width: 90%;
         align-items: center;
         justify-content: center;
     }
-
-
 
     .main-sectionOne-saveTime-divOne-title {
         font-size: 30px;
@@ -122,10 +112,7 @@
     .main-sectionOneTwo-divTwo {
         width: 100%;
         margin: auto;
-<<<<<<< HEAD
-=======
         padding: 20px;
->>>>>>> 4f9821ea520c85bd6faee7c0e8dda3d1a7a44038
         align-items: center;
         position: relative;
     }
@@ -490,8 +477,6 @@
         font-size: 20px;
         color: #fff;
     }
-<<<<<<< HEAD
-=======
 
     .main-sectionOneTwo-divTwo {
         overflow: hidden;
@@ -533,5 +518,4 @@
         margin-left: 6px;
       }
 
->>>>>>> 4f9821ea520c85bd6faee7c0e8dda3d1a7a44038
 }

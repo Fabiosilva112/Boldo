@@ -54,7 +54,7 @@
     }
 
     .main-sectionOneTwo{
-        border: 1px solid red;
+    
     }
 
 
@@ -119,7 +119,6 @@
     .main-sectionOneTwo-divTwo {
         width: 90%;
         margin: auto;
-        border: 1px solid red;
         align-items: center;
         justify-content: center;
     }
@@ -434,5 +433,4 @@
         font-size: 20px;
         color: #fff;
     }
-
 }

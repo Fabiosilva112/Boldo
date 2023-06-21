@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Open+Sans:wght@400;600;700&display=swap"
-        rel="stylesheet">  
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="/assets/fontawesome-free-6.4.0-web/css/all.min.css">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
@@ -32,7 +32,8 @@
 
             <div class="mobile-menu-icon">
 
-                <button onclick="menuShow()"><img class="icon" src="./assets/img/menu_white_36dp.svg" alt="imagem do botão hamburgue"></button>
+                <button onclick="menuShow()"><img class="icon" src="./assets/img/menu_white_36dp.svg"
+                        alt="imagem do botão hamburgue"></button>
 
             </div>
 
@@ -113,38 +114,46 @@
         <section class="main-sectionOneTwo" id="services">
             <div class="main-sectionOneTwo-divOne">
                 <h6 class="main-sectionOneTwo-divOne-title">Our Services</h6>
-
                 <h2 class="main-sectionOneTwo-divOne-title2">Handshake infographic mass market crowdfunding iteration.
                 </h2>
             </div>
-
             <div class="main-sectionOneTwo-divTwo">
-                <div class="main-sectionOneTwo-divTwo-card">
-                    <img src="./assets/img/Rectangle1.png" alt="img-rectangle1"
-                        class="main-sectionOneTwo-divTwo-card-img">
-                    <p class="main-sectionOne1">Cool feature title</p>
-                    <p class="main-sectionOneTwo-divTwo-card-paragraph2">Learning curve network effects return on
-                        investment.</p>
-                    <a href="" class="main-sectionOneTwo-divTwo-card-link">Explore page<img src="./assets/img/arrow-right.svg" alt="img-arrow"></a>
+                <div class="main-sectionOneTwo-divTwo-wrapper">
+                    <div class="main-sectionOneTwo-divTwo-card">
+                        <img src="./assets/img/Rectangle1.png" alt="img-rectangle1"
+                            class="main-sectionOneTwo-divTwo-card-img">
+                        <p class="main-sectionOne1">Cool feature title</p>
+                        <p class="main-sectionOneTwo-divTwo-card-paragraph2">Learning curve network effects return on
+                            investment.</p>
+                        <a href="" class="main-sectionOneTwo-divTwo-card-link">Explore page<img
+                                src="./assets/img/arrow-right.svg" alt="img-arrow"></a>
+                    </div>
+                    <div class="main-sectionOneTwo-divTwo-card">
+                        <img src="./assets/img/Rectangle2.png" alt="img-rectangle2"
+                            class="main-sectionOneTwo-divTwo-card-img">
+                        <p class="main-sectionOne1">Cool feature title</p>
+                        <p class="main-sectionOneTwo-divTwo-card-paragraph2">Learning curve network effects return on
+                            investment.</p>
+                        <a href="" class="main-sectionOneTwo-divTwo-card-link">Explore page<img
+                                src="./assets/img/arrow-right.svg" alt="img-arrow"></a>
+                    </div>
+                    <div class="main-sectionOneTwo-divTwo-card">
+                        <img src="./assets/img/Rectangle3.png" alt="img-rectangle3"
+                            class="main-sectionOneTwo-divTwo-card-img">
+                        <p class="main-sectionOne1">Cool feature title</p>
+                        <p class="main-sectionOneTwo-divTwo-card-paragraph2">Learning curve network effects return on
+                            investment.</p>
+                        <a href="" class="main-sectionOneTwo-divTwo-card-link">Explore page<img
+                                src="./assets/img/arrow-right.svg" alt="img-arrow"></a>
+                    </div>
                 </div>
-                <div class="main-sectionOneTwo-divTwo-card">
-                    <img src="./assets/img/Rectangle2.png" alt="img-rectangle2"
-                        class="main-sectionOneTwo-divTwo-card-img">
-                    <p class="main-sectionOne1">Cool feature title</p>
-                    <p class="main-sectionOneTwo-divTwo-card-paragraph2">Learning curve network effects return on
-                        investment.</p>
-                    <a href="" class="main-sectionOneTwo-divTwo-card-link">Explore page<img src="./assets/img/arrow-right.svg" alt="img-arrow"></a>
-                </div>
-                <div class="main-sectionOneTwo-divTwo-card">
-                    <img src="./assets/img/Rectangle3.png" alt="img-rectangle3"
-                        class="main-sectionOneTwo-divTwo-card-img">
-                    <p class="main-sectionOne1">Cool feature title</p>
-                    <p class="main-sectionOneTwo-divTwo-card-paragraph2">Learning curve network effects return on
-                        investment.</p>
-                    <a href="" class="main-sectionOneTwo-divTwo-card-link">Explore page<img src="./assets/img/arrow-right.svg" alt="img-arrow"></a>
+                <div class="main-sectionOneTwo-navigation">
+                    <button class="main-sectionOneTwo-prev-btn" onclick="prevSlide()"><img src="./assets/img/arrow-right.png" alt=""></button>
+                    <button class="main-sectionOneTwo-next-btn" onclick="nextSlide()"><img src="./assets/img/arrow-lefth.png" alt=""></button>
                 </div>
             </div>
         </section>
+
 
         <section class="main-sectionThree">
             <div class="main-sectionThree-customers">
@@ -153,13 +162,13 @@
                         <img src="./assets/img/men.png" alt="img-men"
                             class="main-sectionThree-customers-divOne-box1-img">
 
-                            <div class="main-sectionThree-customers-divOne-box2">
-                                <img src="./assets/img/graphics1.png" alt="img-graphics1"
-                                    class="main-sectionThree-customers-divOne-box1-img2">
-                            </div>
+                        <div class="main-sectionThree-customers-divOne-box2">
+                            <img src="./assets/img/graphics1.png" alt="img-graphics1"
+                                class="main-sectionThree-customers-divOne-box1-img2">
+                        </div>
                     </div>
 
-                   
+
 
                 </div>
                 <div class="main-sectionThree-customers-divTwo">
@@ -189,11 +198,13 @@
                         We connect our customers with the best, and help them keep up-and stay open.
                     </h3>
                     <div class="main-sectionFour-connect-divOne-icons">
-                        <p class="main-sectionFour-connect-divOne-icons-paragraph"><i class="ph ph-feather"></i>We connect our
+                        <p class="main-sectionFour-connect-divOne-icons-paragraph"><i class="ph ph-feather"></i>We
+                            connect our
                             customers with the best.</p>
-                        <p class="main-sectionFour-connect-divOne-icons-paragraph"> 
-                                <i class="ph ph-eye"></i>  Advisor success
-                            customer launch party.</p>
+                        <p class="main-sectionFour-connect-divOne-icons-paragraph">
+                            <i class="ph ph-eye"></i> Advisor success
+                            customer launch party.
+                        </p>
                         <p class="main-sectionFour-connect-divOne-icons-paragraph"> <i class="ph ph-sun"></i>
                             Business-to-consumer long tail.</p>
                     </div>
@@ -205,11 +216,11 @@
                             class="main-sectionFour-connect-divTwo-person-img">
 
                         <div class="main-sectionFour-connect-divTwo-person2">
-                             <img src="./assets/img/graphics2.png" alt="img-graphics2"
+                            <img src="./assets/img/graphics2.png" alt="img-graphics2"
                                 class="main-sectionFour-connect-divTwo-grafic-img">
                         </div>
                     </div>
-                  
+
                 </div>
             </div>
         </section>
@@ -221,11 +232,13 @@
 
                     <h6 class="main-sectionFive-tamplate-div-title">
                         An enterprise template to ramp up your company website
-                       
+
                     </h6>
                     <div class="main-sectionFive-tamplate-div-buttons">
-                        <a class="main-sectionFive-tamplate-div-buttons-bt"><img src="./assets/img/arrow-right.png" alt=""></a>
-                        <a class="main-sectionFive-tamplate-div-buttons-bt"><img src="./assets/img/arrow-lefth.png" alt="" ></a>
+                        <a class="main-sectionFive-tamplate-div-buttons-bt"><img src="./assets/img/arrow-right.png"
+                                alt=""></a>
+                        <a class="main-sectionFive-tamplate-div-buttons-bt"><img src="./assets/img/arrow-lefth.png"
+                                alt=""></a>
                     </div>
                 </div>
 
@@ -242,7 +255,8 @@
                             <div class="main-sectionFive-tamplate-container-card-network-div">
                                 <p class="main-sectionFive-tamplate-container-card-network-div-paragraph">Albus
                                     Dumbledore</p>
-                                <p class="main-sectionFive-tamplate-container-card-network-div-paragraph2">Manager @Howarts</p>
+                                <p class="main-sectionFive-tamplate-container-card-network-div-paragraph2">Manager
+                                    @Howarts</p>
                             </div>
                         </div>
 
@@ -250,7 +264,8 @@
 
                     <div class="main-sectionFive-tamplate-container-card">
 
-                        <h6 class="main-sectionFive-tamplate-container-card-title">“Learning curve infrastructure value proposition advisor strategy user experience hypotheses investor.”</h6>
+                        <h6 class="main-sectionFive-tamplate-container-card-title">“Learning curve infrastructure value
+                            proposition advisor strategy user experience hypotheses investor.”</h6>
 
                         <div class="main-sectionFive-tamplate-container-card-network">
                             <img src="./assets/img/perfile2.png" alt="img-profile2"
@@ -258,7 +273,8 @@
                             <div class="main-sectionFive-tamplate-container-card-network-div">
                                 <p class="main-sectionFive-tamplate-container-card-network-div-paragraph">Severus Snape
                                 </p>
-                                <p class="main-sectionFive-tamplate-container-card-network-div-paragraph2">Manager @Slytherin</p>
+                                <p class="main-sectionFive-tamplate-container-card-network-div-paragraph2">Manager
+                                    @Slytherin</p>
                             </div>
                         </div>
 
@@ -273,8 +289,10 @@
                             <img src="./assets/img/perfile3.png" alt="img-profile3"
                                 class="main-sectionFive-tamplate-container-card-network-img">
                             <div class="main-sectionFive-tamplate-container-card-network-div">
-                            <p class="main-sectionFive-tamplate-container-card-network-div-paragraph">Harry Potter</p>
-                            <p class="main-sectionFive-tamplate-container-card-network-div-paragraph2">Team Leader @Gryffindor</p>
+                                <p class="main-sectionFive-tamplate-container-card-network-div-paragraph">Harry Potter
+                                </p>
+                                <p class="main-sectionFive-tamplate-container-card-network-div-paragraph2">Team Leader
+                                    @Gryffindor</p>
                             </div>
                         </div>
 
@@ -295,9 +313,10 @@
                         keep up-and stay open.</h3>
                     <div class="main-sectionSix-table-divtwo-details">
                         <p class="main-sectionSix-table-divtwo-details-dt">We connect our customers with the best?
-                        <img src="./assets/img/Group.png" alt="img grup" ></p>
+                            <img src="./assets/img/Group.png" alt="img grup">
+                        </p>
                         <p class="main-sectionSix-table-divtwo-details-dt d2">Android research & development
-                            rockstar? <img src="./assets/img/Group.png" alt="img grup" > </p>
+                            rockstar? <img src="./assets/img/Group.png" alt="img grup"> </p>
                     </div>
                 </div>
             </div>
@@ -317,7 +336,8 @@
                         <div class="main-sectionSeven-proposition-category-card-text">
                             <p class="main-sectionSeven-proposition-category-card-text-p1"><span>Category</span>November
                                 22, 2021</p>
-                            <p class="main-sectionSeven-proposition-category-card-text-p2 first"> Pitch termsheet backing
+                            <p class="main-sectionSeven-proposition-category-card-text-p2 first"> Pitch termsheet
+                                backing
                                 validation focus release.</p>
                         </div>
 
@@ -404,7 +424,8 @@
                 <p class="footer-center-div-title">Company</p>
                 <ul class="footer-center-div-ul">
                     <li class="footer-center-div-ul-li"><a href="" class="footer-center-div-ul-li-a">Home</a></li>
-                    <li class="footer-center-div-ul-li"><a href="" class="footer-center-div-ul-li-a">Careers</a><button>Hiring</button></li>
+                    <li class="footer-center-div-ul-li"><a href=""
+                            class="footer-center-div-ul-li-a">Careers</a><button>Hiring</button></li>
                     <li class="footer-center-div-ul-li"><a href="" class="footer-center-div-ul-li-a">Services</a></li>
                 </ul>
             </div>
@@ -420,5 +441,6 @@
         </div>
     </footer>
 </body>
- <script src="./assets/js/script.js"></script>
+<script src="./assets/js/script.js"></script>
+
 </html>

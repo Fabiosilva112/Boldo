@@ -263,6 +263,10 @@
     margin-top: 82px;
 }
 
+.main-sectionOneTwo-navigation{
+    display: none;
+}
+
 .main-sectionOneTwo-divOne-title {
     font-weight: 400;
     font-size: 20px;
@@ -285,6 +289,11 @@
     margin-top: 78px;
     margin-bottom: 197px;
     gap: 50px;
+    justify-content: space-between;
+}
+
+.main-sectionOneTwo-divTwo-wrapper{
+    display: flex;
     justify-content: space-between;
 }
 
@@ -893,6 +902,17 @@
     line-height: 28px;
     color: #0A2640;
     cursor: pointer;
+}
+
+.direitos{
+    background-color: #0A2640;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.direitos span{
+    color: #65E4A3;
 }
 
 

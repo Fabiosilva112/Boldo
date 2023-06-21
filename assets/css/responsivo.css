@@ -53,11 +53,6 @@
         width: 50%;
     }
 
-    .main-sectionOneTwo{
-        border: 1px solid red;
-    }
-
-
     .main-sectionOne-saveTime{
         width: 90%;
         align-items: center;
@@ -117,16 +112,22 @@
     }
 
     .main-sectionOneTwo-divTwo {
-        width: 90%;
+        width: 100%;
         margin: auto;
-        border: 1px solid red;
+        padding: 20px;
         align-items: center;
-        justify-content: center;
+        position: relative;
     }
 
     .main-sectionOneTwo-divTwo-card {
-        width: 50%;
+        width: 100%;
         margin: auto;
+       
+    }
+
+    .main-sectionOne1, .main-sectionOneTwo-divTwo-card-paragraph2, .main-sectionOneTwo-divTwo-card-link{
+        margin-left: 10px;
+        padding-right: 20px;
     }
 
 
@@ -139,16 +140,27 @@
         border-bottom: none;
     }
 
+    .main-sectionThree{
+        padding-top: 60px;
+    }
+
 
     .main-sectionThree-customers {
-        width: 50%;
+        width: 80%;
         display: flex;
         flex-direction: column;
+
+
+    }
+
+    .main-sectionThree-customers-divOne{
+
 
     }
 
     .main-sectionThree-customers-divOne-box1-img2 {
-        width: 30px;
+        width: 100%;
+        height: 100%;
 
     }
 
@@ -158,26 +170,42 @@
     }
 
     .main-sectionThree-customers-divOne-box2 {
-        width: 0;
+
+        height: 300px;
+        right: 45px;
+        top: 210px;
+        width: 220px;
     }
 
     .main-sectionThree-customers-divTwo {
         display: flex;
         flex-direction: column;
         width: 100%;
+        padding-top: 150px;
+
 
     }
 
+
+
     .main-sectionThree-customers-divTwo-title {
-        width: 50%;
-        font-size: 10px;
-        margin-top: 0;
+        text-align: center;
+        font-size: 20px;
+        width: 100%;
+        margin: 20px auto;
     }
 
     .main-sectionThree-customers-divTwo-check {
-        width: 50%;
+        width: 100%;
         font-size: 10px;
 
+    }
+
+    .main-sectionThree-customers-divTwo-paragraph{
+
+        width: 100%;
+        display: flex;
+        align-items: center;
     }
 
     .main-sectionThree-customers-divTwo-paragraph img {
@@ -185,15 +213,26 @@
     }
 
     .main-sectionThree-customers-divTwo-button {
-        width: 30%;
-        font-size: 10px;
+        width: 50%;
+        margin: auto;
+        font-size: 15px;
     }
 
 
     .main-sectionFour-connect {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
 
+    }
+
+    .main-sectionFour-connect-divOne{
+        padding-top: 200px;
+    }
+
+    .main-sectionFour-connect-divOne-title{
+        text-align: center;
+        width: 100%;
+        margin: 20px auto;
     }
 
     .main-sectionFour-connect-divOne-icons-paragraph {
@@ -213,12 +252,18 @@
 
     }
 
-    .main-sectionFour-connect-divTwo-person {
-        width: 0;
+    .main-sectionFour-connect-divTwo{
+        width: 100%;
     }
 
-    .main-sectionFour-connect-divTwo-person2 {
-        width: 0;
+    .main-sectionFour-connect-divTwo-person{
+        padding: 0;
+        margin: 0;
+    }
+
+    .main-sectionFour-connect-divTwo-person2{
+        height: 350px;
+        top: 190px
     }
 
     .main-sectionFive-tamplate-container {
@@ -434,5 +479,45 @@
         font-size: 20px;
         color: #fff;
     }
+
+    .main-sectionOneTwo-divTwo {
+        overflow: hidden;
+      }
+      
+      .main-sectionOneTwo-divTwo-wrapper {
+        display: flex;
+      }
+      
+      .main-sectionOneTwo-divTwo-card {
+        flex: 0 0 300px;
+        margin-right: 10px;
+      }
+      
+      .main-sectionOneTwo-divTwo-card-img {
+        width: 100%;
+        
+      }
+      
+      .main-sectionOneTwo-navigation {
+        margin-top: 10px;
+        position: absolute;
+        width: 100%;
+        top: 35%;
+        left: -1px;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .main-sectionOneTwo-prev-btn,
+      .main-sectionOneTwo-next-btn {
+        padding: 5px 10px;
+        background-color: transparent;
+        border: none;
+
+      }
+
+      .main-sectionOneTwo-prev-btn{
+        margin-left: 6px;
+      }
 
 }

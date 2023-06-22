@@ -5,12 +5,12 @@ function menuShow() {
 
     if (menuMobile.classList.contains('open')){
         menuMobile.classList.remove('open');
-        document.querySelector('.icon').src="./assets/img/menu_white_36dp.svg";
+        document.querySelector('.icon').src="/assets/img/menu_white_36dp.svg";
     }
 
     else {
         menuMobile.classList.add('open');
-        document.querySelector('.icon').src="./assets/img/close_white_36dp.svg";
+        document.querySelector('.icon').src="/assets/img/close_white_36dp.svg";
     }
 }
 
@@ -23,7 +23,7 @@ const nextBtn = document.querySelector('.main-sectionOneTwo-next-btn');
 let currentSlide = 0;
 
 function showSlide(slideIndex) {
-  carouselWrapper.style.transform = `translateX(-${slideIndex * 280}px)`; // 310 é a largura do slide (300 + 10 de margem)
+  carouselWrapper.style.transform = `translateX(-${slideIndex * 295}px)`; // 310 é a largura do slide (300 + 10 de margem)
 }
 
 function prevSlide() {

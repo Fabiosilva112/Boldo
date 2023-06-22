@@ -319,7 +319,7 @@
         height: 38px;
     }
 
-    .main-sectionSix-table{
+    .main-sectionSix-table {
         padding-top: 50px;
     }
 
@@ -336,9 +336,7 @@
         flex-direction: column;
         justify-self: center;
         align-items: center;
-        margin-top: 40px
-        
-        ;
+        margin-top: 40px;
     }
 
 
@@ -606,12 +604,12 @@
 
     /* RESPONSIVO ABOUT */
 
-    .mainAbout-sectionOne{
+    .mainAbout-sectionOne {
         position: relative;
         padding-top: 150px;
     }
 
-    .mainAbout-sectionOne-h1{
+    .mainAbout-sectionOne-h1 {
         padding: 0;
         font-size: 30px;
         width: 90%;
@@ -620,44 +618,44 @@
         margin-bottom: 20px;
     }
 
-    .mainAbout-sectionOne-p{
+    .mainAbout-sectionOne-p {
         padding: 0;
         width: 90%;
         margin: auto;
     }
 
-    .mainAbout-sectionOne-divImg{
+    .mainAbout-sectionOne-divImg {
         position: absolute;
         top: 550px;
     }
 
-    .mainAbout-sectionTwo{
+    .mainAbout-sectionTwo {
         margin-top: 200px;
     }
 
-    .mainAbout-sectionTwo-h6{
+    .mainAbout-sectionTwo-h6 {
         text-align: center;
         margin-top: 30px;
     }
 
-    .center{
+    .center {
         width: 90%;
     }
 
-    .mainAbout-sectionTwo-h1{
+    .mainAbout-sectionTwo-h1 {
         text-align: center;
-       font-size: 30px;
-       line-height: 50px;
-       width: 90%;
-       margin: auto;
+        font-size: 30px;
+        line-height: 50px;
+        width: 90%;
+        margin: auto;
     }
 
-    .mainAbout-sectionTwo-p{
+    .mainAbout-sectionTwo-p {
         text-align: center;
         margin-bottom: 46px;
     }
 
-    .mainAbout-sectionThree-h1{
+    .mainAbout-sectionThree-h1 {
         padding: 0 0 40px 0;
 
         font-size: 30px;
@@ -666,74 +664,74 @@
         margin: auto;
     }
 
-    .mainAbout-sectionThree-h6{
+    .mainAbout-sectionThree-h6 {
         padding-top: 50px;
         padding-bottom: 30px;
     }
 
-    .mainAbout-sectionThree-number{
+    .mainAbout-sectionThree-number {
         text-align: center;
         flex-direction: column;
         padding-bottom: 16px;
     }
 
-    .mainAbout-sectionThree-number-div span{
+    .mainAbout-sectionThree-number-div span {
         font-size: 76px;
     }
 
-    .mainAbout-sectionThree-number-div p{
+    .mainAbout-sectionThree-number-div p {
         font-size: 18px;
         font-size: 15px;
     }
 
-    .mainAbout-sectionFour-div{
+    .mainAbout-sectionFour-div {
         width: 90%;
     }
 
-    .mainAbout-sectionFour-div-h6{
+    .mainAbout-sectionFour-div-h6 {
         padding: 0;
         text-align: center;
     }
 
-    .mainAbout-sectionFour-div-h1{
+    .mainAbout-sectionFour-div-h1 {
         padding: 0;
-       text-align: center;
-       font-size: 30px;
-    line-height: 50px;
+        text-align: center;
+        font-size: 30px;
+        line-height: 50px;
     }
 
     .mainAbout-sectionFour-div-cards-box {
         padding: 10px 30px;
     }
 
-    .mainAbout-sectionFour-div-p{
+    .mainAbout-sectionFour-div-p {
         padding: 15px 0 0 0;
         text-align: center;
         font-size: 15px;
     }
 
-    .mainAbout-sectionFour-div-cards{
+    .mainAbout-sectionFour-div-cards {
         flex-direction: column;
     }
 
-    .mainAbout-sectionFour-div-cards-box-name{
+    .mainAbout-sectionFour-div-cards-box-name {
         margin-top: 10px;
         font-size: 20px;
         line-height: 20px;
     }
 
-    .mainAbout-sectionFour-div-cards-box-profission{
+    .mainAbout-sectionFour-div-cards-box-profission {
         margin-top: 5px;
         font-size: 15px;
     }
 
-    .mainAbout-sectionFive-div{
-       
+    .mainAbout-sectionFive-div {
+
         width: 90%;
     }
 
-    .mainAbout-sectionFive-div-h6{
-       
+    .mainAbout-sectionFive-div-h6 {
+
         text-align: center;
         margin-top: 90px;
     }
@@ -741,44 +739,113 @@
     .mainAbout-sectionFive-div-h1 {
         text-align: center;
         font-size: 30px;
-    line-height: 50px;
+        line-height: 50px;
     }
 
-    .mainAbout-sectionFive-div-p{
+    .mainAbout-sectionFive-div-p {
         text-align: center;
         font-size: 15px;
     }
 
-    .mainAbout-sectionFive-div-cards-box{
+    .mainAbout-sectionFive-div-cards-box {
         flex-direction: column;
-       
+
     }
 
-    .mainAbout-sectionFive-div-cards-box-divImg{
-       
+    .mainAbout-sectionFive-div-cards-box-divImg {
+
         width: 80%;
     }
 
-    .mainAbout-sectionFive-div-cards-box-divImg img{
+    .mainAbout-sectionFive-div-cards-box-divImg img {
         width: 100%;
     }
 
-    .mainAbout-sectionFive-div-cards-box-divNames{
-       
+    .mainAbout-sectionFive-div-cards-box-divNames {
+
         padding-left: 0;
     }
 
     .mainAbout-sectionFive-div-cards-box-divNames h6 {
-       
+
         width: 100%;
         text-align: center;
         font-size: 23px;
     }
 
-    .mainAbout-sectionFive-div-cards-box-divNames p{
+    .mainAbout-sectionFive-div-cards-box-divNames p {
+        text-align: center;
+        line-height: 28px;
+        font-size: 15px;
+    }
+
+    /* responsivo blog */
+
+    .mainBlog-sectionTwo-blog {
+        flex-direction: column;
+    }
+
+    .mainBlog-sectionTwo-divCenter {
+        padding-top: 150px;
+    }
+
+    .mainBlog-sectionTwo-blog-img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+
+    .mainBlog-sectionTwo-h1 {
+        font-size: 44px;
+        line-height: 54px;
+
+    }
+
+    .mainBlog-sectionTwo-blog-div {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .mainBlog-sectionTwo-blog-div-h3 {
+        font-size: 25px;
+        line-height: 42px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .mainBlog-sectionTwo-blog-div-divImg {
+        height: 80px;
+        margin-left: 40px;
+    }
+
+    .mainBlog-sectionTwo-blog-div-divImg img {
+        height: 80%;
+    }
+
+    .mainBlog-sectionTwo-blog-div-divImg span {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .mainBlog-sectionTwo-blog-div-p{
        text-align: center;
-       line-height: 28px;
-       font-size: 15px;
+    }
+
+
+    .mainBlog-sectionThree-container-h3 {
+        text-align: center;
+    }
+
+    .mainBlog-sectionThree-container-box {
+        flex-direction: column;
+    }
+
+    .mainBlog-sectionThree-container-box-cards {
+        width: 100%;
+    }
+
+    .mainBlog-sectionThree-container-box-cards-divImg {
+        margin-bottom: 50px;
     }
 
 }
